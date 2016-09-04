@@ -830,3 +830,15 @@ footer .footer-manu ul li a:hover {
     background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
     padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
   }
+/* Up Button*/
+.ir-arriba {
+  display:none;
+  padding:15px;
+  background:#686884;opacity: 0.4;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:15px;
+  right:15px;
+}

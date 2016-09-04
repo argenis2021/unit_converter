@@ -31,10 +31,26 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/google-map-init.js"></script>
-
-
     <script src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
 
+    $('.ir-arriba').click(function(){
+    $('body, html').animate({
+      scrollTop: '0px'
+    }, 300);
+    });
+
+    $(window).scroll(function(){
+    if( $(this).scrollTop() > 0 ){
+      $('.ir-arriba').slideDown(300);
+    } else {
+      $('.ir-arriba').slideUp(300);
+    }
+    });
+
+    });
+    </script>
 
   </head>
   <body>
@@ -394,5 +410,6 @@ document.getElementById("feature").scrollIntoView();
       <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
     </ul>
   </div>
+  <span class="ir-arriba icon-arrow-up"</span>
     </body>
 </html>
