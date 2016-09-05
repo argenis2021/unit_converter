@@ -821,9 +821,9 @@ footer .footer-manu ul li a:hover {
   }
  
   .social ul li .icon-calculator {background:#3b5998;opacity: 0.5;} /* Establecemos los colores de cada red social, aprovechando su class */
-  .social ul li .icon-classic-computer {background: #00abf0;opacity: 0.5;}
-  .social ul li .icon-star {background: #d95232;opacity: 0.5;}
-  .social ul li .icon-rocket {background: #ae181f;opacity: 0.5;}
+  .social ul li .icon-battery {background: #00abf0;opacity: 0.5;}
+  .social ul li .icon-power-plug {background: #d95232;opacity: 0.5;}
+  .social ul li .icon-drop {background: #ae181f;opacity: 0.5;}
   .social ul li .icon-mail {background: #666666;opacity: 0.5;}
  
   .social ul li a:hover {
