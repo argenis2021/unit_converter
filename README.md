@@ -1,7 +1,10 @@
-# unit_converter
-Unit converter app
+# Unit Converter
+Unit converter app. 
++It is my initial steps using javascrit and css3.
++The objetive is to do a web apps capable to realise the convertion from power unit to energy equivalente in a period of time and the oil or gas consumton equivalente to produce thet energy in a termo plant
 
-web: http://converter-yaritagua.rhcloud.com/
+##To see the result visit:
++http://converter-yaritagua.rhcloud.com/
 
 plate-box
 =========
