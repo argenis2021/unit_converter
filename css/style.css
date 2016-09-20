@@ -178,6 +178,33 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 /*--
+  metal Start 
+--*/
+#metal {
+  text-align: center;
+  padding: 90px 0;
+}
+#metal .metal-item {
+  padding-bottom: 30px;
+}
+#metal .metal-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#metal .metal-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#metal .metal-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+/*--
+/*--
 	call-to-action Start 
 --*/
 #call-to-action {
@@ -824,7 +851,8 @@ footer .footer-manu ul li a:hover {
   .social ul li .icon-battery {background: #00abf0;opacity: 0.5;}
   .social ul li .icon-power-plug {background: #d95232;opacity: 0.5;}
   .social ul li .icon-drop {background: #ae181f;opacity: 0.5;}
-  .social ul li .icon-mail {background: #666666;opacity: 0.5;}
+  .social ul li .icon-tools {background: #666666;opacity: 0.5;}
+  .social ul li .icon-mail {background: #7AFFFF;opacity: 0.5;}
  
   .social ul li a:hover {
     background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */

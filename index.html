@@ -102,7 +102,7 @@
           <div class="col-md-10 col-md-offset-2">
             <div class="block">
               <h1 class="animated fadeInUp">CONVERSIÓN DE UNIDADES <br>POTENCIA & ENERGÍA</h1>
-              <p class="animated fadeInUp">Convierte unidades que se utilizan cotidianamente</br> en las áreas de electricidad, petróleo y gas</p>
+              <p class="animated fadeInUp">Convierte unidades de uso frecuente en las áreas </br> de  petróleo, gas y servicio  eléctrico</p>
             </div>
           </div>
         </div>
@@ -153,8 +153,13 @@ document.getElementById("service").innerHTML=("<h2>ENERGÍA EQUIVALENTE POR 24 h
 +addCommas(MW/1000000*24) + " TWh" + "<br/>")
 document.getElementById("call-to-action").getElementsByClassName("block")[0].innerHTML=("<h2>HIDROCARBUROS</h2>"
 +"<p>Necesarios para producir la energía arriba indicada en una planta termoléctrica</p>"
-+addCommas(MW*0.25) + " MMPCD" + "<br/>"
-+addCommas(MW*0.25*177.2/1000) + " MBD" + "<br/>")
++addCommas(MW*0.25) + " MMPCD Gas Natural" + "<br/>"
++addCommas(MW*0.25*177.2/1000) + " MBEPD" + "<br/>")
+document.getElementById("metal").innerHTML=("<h2>METALES</h2>"
++"<p>Metales producidos con la energía arriba indicada durante 365 días</p>"
++(MW*365*24/0.400/1000000).toFixed(2) + " MMTn/año Acero Chatarra" + "<br/>"
++(MW*365*24/0.650/1000000).toFixed(2) + " MMTn/año Acero SIDOR" + "<br/>"
++(MW*365*24/14/1000000).toFixed(2) + " MMTn/año Aluminio" + "<br/>")
 document.getElementById("feature").scrollIntoView();
 //alert("Conversión realizada");
 }
@@ -277,6 +282,19 @@ document.getElementById("feature").scrollIntoView();
               <p>Necesarios para para producir un trabajo equivalente durante 24 hora en una planta termoeléctrica</p>
               <a class="btn btn-default btn-call-to-action" href="#intro" >Calcular</a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Metal Start -->
+    </section>
+    <section id="metal">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>METALES</h2>
+            <p>Metales producidos anualmente con el trabajo equivalente</p>
+            <a href="#intro" class="btn btn-view-works">Calcular</a>
           </div>
         </div>
       </div>
@@ -407,6 +425,7 @@ document.getElementById("feature").scrollIntoView();
       <li><a href="#feature" target="_self" class="icon-battery"></a></li>
       <li><a href="#service" target="_self" class="icon-power-plug"></a></li>
       <li><a href="#call-to-action" target="_self" class="icon-drop"></a></li>
+      <li><a href="#metal" target="_self" class="icon-tools"></a></li>
       <li><a href="mailto:argenismoncada@gmail.com" class="icon-mail"></a></li>
     </ul>
   </div>
